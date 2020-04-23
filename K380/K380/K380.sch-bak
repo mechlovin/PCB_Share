@@ -1,0 +1,2121 @@
+EESchema Schematic File Version 4
+LIBS:K380-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L K380-rescue:SW_Push-Switch SW1
+U 1 1 5B9A5AF9
+P 1150 875
+F 0 "SW1" H 1150 1160 50  0000 C CNN
+F 1 "ESC" H 1150 1069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1150 1075 50  0001 C CNN
+F 3 "" H 1150 1075 50  0001 C CNN
+	1    1150 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW11
+U 1 1 5B9A5C09
+P 1825 1850
+F 0 "SW11" H 1825 2135 50  0000 C CNN
+F 1 "DOWN" H 1825 2044 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1825 2050 50  0001 C CNN
+F 3 "" H 1825 2050 50  0001 C CNN
+	1    1825 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW21
+U 1 1 5B9A5C71
+P 2500 2675
+F 0 "SW21" H 2500 2960 50  0000 C CNN
+F 1 "F9" H 2500 2869 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 2875 50  0001 C CNN
+F 3 "" H 2500 2875 50  0001 C CNN
+	1    2500 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW31
+U 1 1 5B9A5DC9
+P 3125 5200
+F 0 "SW31" H 2985 5235 20  0000 C CNN
+F 1 "RALT" H 3415 5205 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 5400 50  0001 C CNN
+F 3 "" H 3125 5400 50  0001 C CNN
+	1    3125 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW41
+U 1 1 5B9A5DCF
+P 3775 3875
+F 0 "SW41" H 3775 4160 50  0000 C CNN
+F 1 "LEFT" H 3775 4069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 4075 50  0001 C CNN
+F 3 "" H 3775 4075 50  0001 C CNN
+	1    3775 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW51
+U 1 1 5B9A5DD5
+P 4450 3475
+F 0 "SW51" H 4450 3760 50  0000 C CNN
+F 1 "=" H 4450 3669 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 3675 50  0001 C CNN
+F 3 "" H 4450 3675 50  0001 C CNN
+	1    4450 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW61
+U 1 1 5B9A5ED5
+P 5100 1400
+F 0 "SW61" H 5100 1685 50  0000 C CNN
+F 1 "X" H 5100 1594 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 1600 50  0001 C CNN
+F 3 "" H 5100 1600 50  0001 C CNN
+	1    5100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW71
+U 1 1 5B9A5EDB
+P 5775 875
+F 0 "SW71" H 5775 1160 50  0000 C CNN
+F 1 "ENTER" H 5775 1069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 1075 50  0001 C CNN
+F 3 "" H 5775 1075 50  0001 C CNN
+	1    5775 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW2
+U 1 1 5B9A5FE3
+P 1150 1400
+F 0 "SW2" H 1150 1685 50  0000 C CNN
+F 1 "TAB" H 1150 1594 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1150 1600 50  0001 C CNN
+F 3 "" H 1150 1600 50  0001 C CNN
+	1    1150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW3
+U 1 1 5B9A605A
+P 1150 1850
+F 0 "SW3" H 1150 2135 50  0000 C CNN
+F 1 "1" H 1150 2044 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1150 2050 50  0001 C CNN
+F 3 "" H 1150 2050 50  0001 C CNN
+	1    1150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW4
+U 1 1 5B9A6130
+P 1150 2275
+F 0 "SW4" H 1150 2560 50  0000 C CNN
+F 1 "L_SHIFT" H 1150 2469 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1150 2475 50  0001 C CNN
+F 3 "" H 1150 2475 50  0001 C CNN
+	1    1150 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW5
+U 1 1 5B9A61B7
+P 1150 2675
+F 0 "SW5" H 1150 2960 50  0000 C CNN
+F 1 "Z" H 1150 2869 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1150 2875 50  0001 C CNN
+F 3 "" H 1150 2875 50  0001 C CNN
+	1    1150 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW6
+U 1 1 5B9A62A5
+P 1150 3100
+F 0 "SW6" H 1150 3385 50  0000 C CNN
+F 1 "F3" H 1150 3294 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1150 3300 50  0001 C CNN
+F 3 "" H 1150 3300 50  0001 C CNN
+	1    1150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW7
+U 1 1 5B9A6322
+P 1150 3475
+F 0 "SW7" H 1150 3760 50  0000 C CNN
+F 1 "4" H 1150 3669 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1150 3675 50  0001 C CNN
+F 3 "" H 1150 3675 50  0001 C CNN
+	1    1150 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW8
+U 1 1 5B9A646C
+P 1150 3875
+F 0 "SW8" H 1150 4160 50  0000 C CNN
+F 1 "6" H 1150 4069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1150 4075 50  0001 C CNN
+F 3 "" H 1150 4075 50  0001 C CNN
+	1    1150 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW9
+U 1 1 5B9A652A
+P 1150 4300
+F 0 "SW9" H 1150 4585 50  0000 C CNN
+F 1 "F8" H 1150 4494 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1150 4500 50  0001 C CNN
+F 3 "" H 1150 4500 50  0001 C CNN
+	1    1150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW10
+U 1 1 5B9A66C9
+P 1150 4775
+F 0 "SW10" H 1150 5060 50  0000 C CNN
+F 1 "-" H 1150 4969 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1150 4975 50  0001 C CNN
+F 3 "" H 1150 4975 50  0001 C CNN
+	1    1150 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW12
+U 1 1 5B9A69BE
+P 1825 2275
+F 0 "SW12" H 1825 2560 50  0000 C CNN
+F 1 "RSHIFT" H 1825 2469 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1825 2475 50  0001 C CNN
+F 3 "" H 1825 2475 50  0001 C CNN
+	1    1825 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW13
+U 1 1 5B9A6A8C
+P 1825 2675
+F 0 "SW13" H 1825 2960 50  0000 C CNN
+F 1 "\\" H 1825 2869 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1825 2875 50  0001 C CNN
+F 3 "" H 1825 2875 50  0001 C CNN
+	1    1825 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW14
+U 1 1 5B9A6C22
+P 1825 3475
+F 0 "SW14" H 1825 3760 50  0000 C CNN
+F 1 "/" H 1825 3669 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1825 3675 50  0001 C CNN
+F 3 "" H 1825 3675 50  0001 C CNN
+	1    1825 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW15
+U 1 1 5B9A6ECC
+P 1825 3875
+F 0 "SW15" H 1825 4160 50  0000 C CNN
+F 1 ";" H 1825 4069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1825 4075 50  0001 C CNN
+F 3 "" H 1825 4075 50  0001 C CNN
+	1    1825 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW16
+U 1 1 5B9A6ED2
+P 1825 4300
+F 0 "SW16" H 1825 4585 50  0000 C CNN
+F 1 "." H 1825 4494 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1825 4500 50  0001 C CNN
+F 3 "" H 1825 4500 50  0001 C CNN
+	1    1825 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW17
+U 1 1 5B9A7503
+P 1825 3100
+F 0 "SW17" H 1825 3385 50  0000 C CNN
+F 1 "W" H 1825 3294 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1825 3300 50  0001 C CNN
+F 3 "" H 1825 3300 50  0001 C CNN
+	1    1825 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW18
+U 1 1 5B9A7509
+P 1825 4775
+F 0 "SW18" H 1825 5060 50  0000 C CNN
+F 1 "E" H 1825 4969 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1825 4975 50  0001 C CNN
+F 3 "" H 1825 4975 50  0001 C CNN
+	1    1825 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW19
+U 1 1 5B9A750F
+P 1825 875
+F 0 "SW19" H 1825 1160 50  0000 C CNN
+F 1 "U" H 1825 1069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1825 1075 50  0001 C CNN
+F 3 "" H 1825 1075 50  0001 C CNN
+	1    1825 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW20
+U 1 1 5B9A78EE
+P 1825 1400
+F 0 "SW20" H 1825 1685 50  0000 C CNN
+F 1 "8" H 1825 1594 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 1825 1600 50  0001 C CNN
+F 3 "" H 1825 1600 50  0001 C CNN
+	1    1825 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW22
+U 1 1 5B9A84F4
+P 2500 875
+F 0 "SW22" H 2500 1160 50  0000 C CNN
+F 1 "F10" H 2500 1069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 1075 50  0001 C CNN
+F 3 "" H 2500 1075 50  0001 C CNN
+	1    2500 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW23
+U 1 1 5B9A84FA
+P 2500 3100
+F 0 "SW23" H 2500 3385 50  0000 C CNN
+F 1 "F11" H 2500 3294 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 3300 50  0001 C CNN
+F 3 "" H 2500 3300 50  0001 C CNN
+	1    2500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW24
+U 1 1 5B9A8500
+P 2500 4775
+F 0 "SW24" H 2500 5060 50  0000 C CNN
+F 1 "F12" H 2500 4969 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 4975 50  0001 C CNN
+F 3 "" H 2500 4975 50  0001 C CNN
+	1    2500 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW25
+U 1 1 5B9A8506
+P 2500 1850
+F 0 "SW25" H 2500 2135 50  0000 C CNN
+F 1 "2" H 2500 2044 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 2050 50  0001 C CNN
+F 3 "" H 2500 2050 50  0001 C CNN
+	1    2500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW26
+U 1 1 5B9A850C
+P 2500 4300
+F 0 "SW26" H 2500 4585 50  0000 C CNN
+F 1 "0" H 2500 4494 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 4500 50  0001 C CNN
+F 3 "" H 2500 4500 50  0001 C CNN
+	1    2500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW27
+U 1 1 5B9A8512
+P 2500 1400
+F 0 "SW27" H 2500 1685 50  0000 C CNN
+F 1 "G" H 2500 1594 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 1600 50  0001 C CNN
+F 3 "" H 2500 1600 50  0001 C CNN
+	1    2500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW28
+U 1 1 5B9A8518
+P 2500 3475
+F 0 "SW28" H 2800 3480 50  0000 C CNN
+F 1 "SPACE" H 2160 3480 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 3675 50  0001 C CNN
+F 3 "" H 2500 3675 50  0001 C CNN
+	1    2500 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW29
+U 1 1 5B9A851E
+P 2500 3875
+F 0 "SW29" H 2800 3880 50  0000 C CNN
+F 1 "C" H 2250 3875 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 4075 50  0001 C CNN
+F 3 "" H 2500 4075 50  0001 C CNN
+	1    2500 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW30
+U 1 1 5B9A8524
+P 2500 5200
+F 0 "SW30" H 2170 5200 50  0000 C CNN
+F 1 "LALT" H 2780 5200 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 5400 50  0001 C CNN
+F 3 "" H 2500 5400 50  0001 C CNN
+	1    2500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW32
+U 1 1 5B9AA891
+P 3125 3475
+F 0 "SW32" H 3125 3760 50  0000 C CNN
+F 1 "RIGHT" H 3125 3669 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 3675 50  0001 C CNN
+F 3 "" H 3125 3675 50  0001 C CNN
+	1    3125 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW33
+U 1 1 5B9AA897
+P 3125 875
+F 0 "SW33" H 3125 1160 50  0000 C CNN
+F 1 "BSPC" H 3125 1069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 1075 50  0001 C CNN
+F 3 "" H 3125 1075 50  0001 C CNN
+	1    3125 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW34
+U 1 1 5B9AA89D
+P 3125 1850
+F 0 "SW34" H 3125 2135 50  0000 C CNN
+F 1 "INS" H 3125 2044 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 2050 50  0001 C CNN
+F 3 "" H 3125 2050 50  0001 C CNN
+	1    3125 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW35
+U 1 1 5B9AA8A3
+P 3125 3875
+F 0 "SW35" H 3125 4160 50  0000 C CNN
+F 1 "DEL" H 3125 4069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 4075 50  0001 C CNN
+F 3 "" H 3125 4075 50  0001 C CNN
+	1    3125 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW37
+U 1 1 5B9AA8AF
+P 3125 4775
+F 0 "SW37" H 3125 5060 50  0000 C CNN
+F 1 "K" H 3125 4969 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 4975 50  0001 C CNN
+F 3 "" H 3125 4975 50  0001 C CNN
+	1    3125 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW38
+U 1 1 5B9AA8B5
+P 3125 4300
+F 0 "SW38" H 3125 4585 50  0000 C CNN
+F 1 "D" H 3125 4494 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 4500 50  0001 C CNN
+F 3 "" H 3125 4500 50  0001 C CNN
+	1    3125 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW42
+U 1 1 5B9ABEC2
+P 3775 4300
+F 0 "SW42" H 3775 4585 50  0000 C CNN
+F 1 "I" H 3775 4494 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 4500 50  0001 C CNN
+F 3 "" H 3775 4500 50  0001 C CNN
+	1    3775 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW43
+U 1 1 5B9ABEC8
+P 3775 4775
+F 0 "SW43" H 3775 5060 50  0000 C CNN
+F 1 "]" H 3775 4969 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 4975 50  0001 C CNN
+F 3 "" H 3775 4975 50  0001 C CNN
+	1    3775 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW44
+U 1 1 5B9ABECE
+P 3775 1850
+F 0 "SW44" H 3775 2135 50  0000 C CNN
+F 1 "V" H 3775 2044 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 2050 50  0001 C CNN
+F 3 "" H 3775 2050 50  0001 C CNN
+	1    3775 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW45
+U 1 1 5B9ABED4
+P 3775 875
+F 0 "SW45" H 3775 1160 50  0000 C CNN
+F 1 "B" H 3775 1069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 1075 50  0001 C CNN
+F 3 "" H 3775 1075 50  0001 C CNN
+	1    3775 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW46
+U 1 1 5B9ABEDA
+P 3775 5550
+F 0 "SW46" H 3430 5550 50  0000 C CNN
+F 1 "LCTRL" H 4110 5555 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 5750 50  0001 C CNN
+F 3 "" H 3775 5750 50  0001 C CNN
+	1    3775 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW47
+U 1 1 5B9ABEE0
+P 3775 3475
+F 0 "SW47" H 3775 3760 50  0000 C CNN
+F 1 "CAPS" H 4080 3480 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 3675 50  0001 C CNN
+F 3 "" H 3775 3675 50  0001 C CNN
+	1    3775 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW48
+U 1 1 5B9ABEE6
+P 3775 2675
+F 0 "SW48" H 3775 2960 50  0000 C CNN
+F 1 "3" H 3775 2869 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 2875 50  0001 C CNN
+F 3 "" H 3775 2875 50  0001 C CNN
+	1    3775 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW49
+U 1 1 5B9ADF7B
+P 3775 1400
+F 0 "SW49" H 3775 1685 50  0000 C CNN
+F 1 "5" H 3775 1594 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 1600 50  0001 C CNN
+F 3 "" H 3775 1600 50  0001 C CNN
+	1    3775 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW50
+U 1 1 5B9ADF81
+P 3775 3100
+F 0 "SW50" H 3775 3385 50  0000 C CNN
+F 1 "F5" H 3775 3294 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 3300 50  0001 C CNN
+F 3 "" H 3775 3300 50  0001 C CNN
+	1    3775 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW52
+U 1 1 5B9AEB2D
+P 4450 1400
+F 0 "SW52" H 4450 1685 50  0000 C CNN
+F 1 "UP" H 4450 1594 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 1600 50  0001 C CNN
+F 3 "" H 4450 1600 50  0001 C CNN
+	1    4450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW53
+U 1 1 5B9AEB33
+P 4450 4775
+F 0 "SW53" H 4450 5060 50  0000 C CNN
+F 1 "[" H 4450 4969 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 4975 50  0001 C CNN
+F 3 "" H 4450 4975 50  0001 C CNN
+	1    4450 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW54
+U 1 1 5B9AEB39
+P 4450 1850
+F 0 "SW54" H 4450 2135 50  0000 C CNN
+F 1 "7" H 4450 2044 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 2050 50  0001 C CNN
+F 3 "" H 4450 2050 50  0001 C CNN
+	1    4450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW55
+U 1 1 5B9AEB3F
+P 4450 5850
+F 0 "SW55" H 4315 5880 20  0000 C CNN
+F 1 "RCTRL" H 4590 5880 20  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 6050 50  0001 C CNN
+F 3 "" H 4450 6050 50  0001 C CNN
+	1    4450 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW56
+U 1 1 5B9AEB45
+P 4450 3875
+F 0 "SW56" H 4450 4160 50  0000 C CNN
+F 1 "M" H 4450 4069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 4075 50  0001 C CNN
+F 3 "" H 4450 4075 50  0001 C CNN
+	1    4450 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW57
+U 1 1 5B9AEB4B
+P 4450 875
+F 0 "SW57" H 4450 1160 50  0000 C CNN
+F 1 "S" H 4450 1069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 1075 50  0001 C CNN
+F 3 "" H 4450 1075 50  0001 C CNN
+	1    4450 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW58
+U 1 1 5B9AEB51
+P 4450 3100
+F 0 "SW58" H 4450 3385 50  0000 C CNN
+F 1 "GRV" H 4450 3294 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 3300 50  0001 C CNN
+F 3 "" H 4450 3300 50  0001 C CNN
+	1    4450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW62
+U 1 1 5B9C141D
+P 5100 6075
+F 0 "SW62" H 5100 6360 50  0000 C CNN
+F 1 "START" H 4765 6075 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 6275 50  0001 C CNN
+F 3 "" H 5100 6275 50  0001 C CNN
+	1    5100 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW63
+U 1 1 5B9C1423
+P 5100 3875
+F 0 "SW63" H 5100 4160 50  0000 C CNN
+F 1 "Q" H 5100 4069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 4075 50  0001 C CNN
+F 3 "" H 5100 4075 50  0001 C CNN
+	1    5100 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW64
+U 1 1 5B9C1429
+P 5100 4300
+F 0 "SW64" H 5100 4585 50  0000 C CNN
+F 1 "F1" H 5100 4494 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 4500 50  0001 C CNN
+F 3 "" H 5100 4500 50  0001 C CNN
+	1    5100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW65
+U 1 1 5B9C142F
+P 5100 4775
+F 0 "SW65" H 5100 5060 50  0000 C CNN
+F 1 "F2" H 5100 4969 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 4975 50  0001 C CNN
+F 3 "" H 5100 4975 50  0001 C CNN
+	1    5100 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW66
+U 1 1 5B9C1435
+P 5100 875
+F 0 "SW66" H 5100 1160 50  0000 C CNN
+F 1 "F6" H 5100 1069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 1075 50  0001 C CNN
+F 3 "" H 5100 1075 50  0001 C CNN
+	1    5100 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW67
+U 1 1 5B9C143B
+P 5100 2675
+F 0 "SW67" H 5100 2960 50  0000 C CNN
+F 1 "F7" H 5100 2869 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 2875 50  0001 C CNN
+F 3 "" H 5100 2875 50  0001 C CNN
+	1    5100 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW68
+U 1 1 5B9C1441
+P 5100 1850
+F 0 "SW68" H 5100 2135 50  0000 C CNN
+F 1 "R" H 5100 2044 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 2050 50  0001 C CNN
+F 3 "" H 5100 2050 50  0001 C CNN
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW69
+U 1 1 5B9C2D26
+P 5100 3475
+F 0 "SW69" H 5100 3760 50  0000 C CNN
+F 1 "Y" H 5100 3669 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 3675 50  0001 C CNN
+F 3 "" H 5100 3675 50  0001 C CNN
+	1    5100 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW70
+U 1 1 5B9C2D2C
+P 5100 3100
+F 0 "SW70" H 5100 3385 50  0000 C CNN
+F 1 "H" H 5100 3294 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 3300 50  0001 C CNN
+F 3 "" H 5100 3300 50  0001 C CNN
+	1    5100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW73
+U 1 1 5B9C37BE
+P 5775 1850
+F 0 "SW73" H 5775 2135 50  0000 C CNN
+F 1 "N" H 5775 2044 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 2050 50  0001 C CNN
+F 3 "" H 5775 2050 50  0001 C CNN
+	1    5775 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW74
+U 1 1 5B9C37C4
+P 5775 3100
+F 0 "SW74" H 5775 3385 50  0000 C CNN
+F 1 "J" H 5775 3294 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 3300 50  0001 C CNN
+F 3 "" H 5775 3300 50  0001 C CNN
+	1    5775 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW75
+U 1 1 5B9C37CA
+P 5775 3475
+F 0 "SW75" H 5775 3760 50  0000 C CNN
+F 1 "9" H 5775 3669 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 3675 50  0001 C CNN
+F 3 "" H 5775 3675 50  0001 C CNN
+	1    5775 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW77
+U 1 1 5B9C37D6
+P 5775 6350
+F 0 "SW77" H 5920 6380 20  0000 C CNN
+F 1 "FN" H 5655 6380 20  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 6550 50  0001 C CNN
+F 3 "" H 5775 6550 50  0001 C CNN
+	1    5775 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW78
+U 1 1 5B9C37DC
+P 5775 1400
+F 0 "SW78" H 5775 1685 50  0000 C CNN
+F 1 "F4" H 5775 1594 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 1600 50  0001 C CNN
+F 3 "" H 5775 1600 50  0001 C CNN
+	1    5775 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW79
+U 1 1 5B9C37E2
+P 5775 3875
+F 0 "SW79" H 5775 4160 50  0000 C CNN
+F 1 "F" H 5775 4069 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 4075 50  0001 C CNN
+F 3 "" H 5775 4075 50  0001 C CNN
+	1    5775 3875
+	1    0    0    -1  
+$EndComp
+Text Notes 2000 6525 0    197  ~ 0
+79 NUT\n
+$Comp
+L K380-rescue:SW_Push-Switch SW59
+U 1 1 5B9C9CA9
+P 4450 4300
+F 0 "SW59" H 4450 4585 50  0000 C CNN
+F 1 "O" H 4450 4494 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 4500 50  0001 C CNN
+F 3 "" H 4450 4500 50  0001 C CNN
+	1    4450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW60
+U 1 1 5B9CAB57
+P 4450 2675
+F 0 "SW60" H 4450 2960 50  0000 C CNN
+F 1 "L" H 4450 2869 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 2875 50  0001 C CNN
+F 3 "" H 4450 2875 50  0001 C CNN
+	1    4450 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW39
+U 1 1 5B9CD04C
+P 3125 1400
+F 0 "SW39" H 3125 1685 50  0000 C CNN
+F 1 "T" H 3125 1594 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 1600 50  0001 C CNN
+F 3 "" H 3125 1600 50  0001 C CNN
+	1    3125 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW40
+U 1 1 5B9CE684
+P 3125 3100
+F 0 "SW40" H 3125 3385 50  0000 C CNN
+F 1 "P" H 3125 3294 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 3300 50  0001 C CNN
+F 3 "" H 3125 3300 50  0001 C CNN
+	1    3125 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW80
+U 1 1 5B9CF80C
+P 5775 2675
+F 0 "SW80" H 5775 2960 50  0000 C CNN
+F 1 "A" H 5775 2869 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 2875 50  0001 C CNN
+F 3 "" H 5775 2875 50  0001 C CNN
+	1    5775 2675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  875  950  1400
+Connection ~ 950  1400
+Wire Wire Line
+	950  1400 950  1850
+Connection ~ 950  1850
+Wire Wire Line
+	950  1850 950  2275
+Connection ~ 950  2275
+Wire Wire Line
+	950  2275 950  2675
+Wire Wire Line
+	950  2675 950  3100
+Connection ~ 950  2675
+Connection ~ 950  3100
+Wire Wire Line
+	950  3100 950  3475
+Connection ~ 950  3475
+Wire Wire Line
+	950  3475 950  3875
+Connection ~ 3575 3475
+Wire Wire Line
+	4250 875  4250 1400
+Connection ~ 4250 1400
+Connection ~ 4250 3475
+Connection ~ 4250 4300
+Connection ~ 4900 1400
+Wire Wire Line
+	4900 1400 4900 875 
+Connection ~ 5575 1850
+Wire Wire Line
+	5575 875  5575 1400
+Connection ~ 5575 1400
+Wire Wire Line
+	5575 1400 5575 1850
+Wire Wire Line
+	1625 875  1625 1400
+Connection ~ 1625 1400
+Wire Wire Line
+	2300 875  2300 1400
+Connection ~ 2300 1400
+Wire Wire Line
+	2925 875  2925 1400
+Wire Wire Line
+	3575 875  3575 1400
+Connection ~ 3575 1400
+Connection ~ 2925 1400
+Connection ~ 4900 3875
+Wire Wire Line
+	4900 1400 4900 1850
+Connection ~ 4900 1850
+Connection ~ 2300 2675
+Wire Wire Line
+	2300 1400 2300 1850
+Connection ~ 2300 1850
+Wire Wire Line
+	3575 1400 3575 1850
+Connection ~ 3575 1850
+Wire Wire Line
+	4250 1400 4250 1850
+Connection ~ 4250 1850
+Wire Wire Line
+	2925 1400 2925 1850
+Connection ~ 2925 1850
+Wire Wire Line
+	1625 1400 1625 1850
+Connection ~ 950  4300
+Wire Wire Line
+	950  4300 950  4775
+Connection ~ 1625 1850
+Wire Wire Line
+	1625 1850 1625 2275
+Connection ~ 1625 2275
+Wire Wire Line
+	1625 2275 1625 2675
+Connection ~ 1625 2675
+Wire Wire Line
+	2300 1850 2300 2675
+Wire Wire Line
+	4250 1850 4250 2675
+Connection ~ 4250 2675
+Wire Wire Line
+	3575 1850 3575 2675
+Wire Wire Line
+	5575 1850 5575 2675
+Connection ~ 5575 2675
+Connection ~ 3575 2675
+Connection ~ 4900 2675
+Wire Wire Line
+	4900 1850 4900 2675
+Wire Wire Line
+	4250 3475 4250 3875
+Connection ~ 4250 3875
+Wire Wire Line
+	4250 3875 4250 4300
+Wire Wire Line
+	4250 2675 4250 3100
+Connection ~ 4250 3100
+Wire Wire Line
+	4250 3100 4250 3475
+Wire Wire Line
+	3575 2675 3575 3100
+Connection ~ 3575 3100
+Wire Wire Line
+	1625 2675 1625 3100
+Connection ~ 1625 3100
+Wire Wire Line
+	2300 2675 2300 3100
+Connection ~ 2300 3100
+Wire Wire Line
+	2925 1850 2925 3100
+Connection ~ 2925 3100
+Wire Wire Line
+	5575 2675 5575 3100
+Connection ~ 5575 3100
+Wire Wire Line
+	4900 2675 4900 3100
+Connection ~ 4900 3100
+Wire Wire Line
+	5575 3100 5575 3475
+Connection ~ 5575 3475
+Wire Wire Line
+	2925 3100 2925 3475
+Connection ~ 2925 3475
+Wire Wire Line
+	1625 3100 1625 3475
+Connection ~ 1625 3475
+Wire Wire Line
+	4900 3100 4900 3475
+Connection ~ 4900 3475
+Wire Wire Line
+	4900 3475 4900 3875
+Wire Wire Line
+	1625 3475 1625 3875
+Connection ~ 1625 3875
+Connection ~ 950  3875
+Wire Wire Line
+	950  3875 950  4300
+Wire Wire Line
+	2300 3100 2300 3315
+Connection ~ 2300 3875
+Wire Wire Line
+	2925 3475 2925 3875
+Connection ~ 2925 3875
+Connection ~ 3575 4300
+Wire Wire Line
+	3575 4300 3575 4775
+Wire Wire Line
+	3575 3475 3575 3875
+Connection ~ 3575 3875
+Wire Wire Line
+	3575 3875 3575 4300
+Wire Wire Line
+	5575 3475 5575 3875
+Connection ~ 5575 4300
+Connection ~ 5575 3875
+Wire Wire Line
+	5575 3875 5575 4300
+Wire Wire Line
+	1625 3875 1625 4300
+Connection ~ 1625 4300
+Wire Wire Line
+	1625 4300 1625 4775
+Wire Wire Line
+	4900 3875 4900 4300
+Connection ~ 4900 4300
+Wire Wire Line
+	4900 4300 4900 4775
+Wire Wire Line
+	2925 3875 2925 4300
+Connection ~ 2925 4300
+Wire Wire Line
+	2925 4300 2925 4775
+Wire Wire Line
+	2300 3875 2300 4300
+Connection ~ 2300 4300
+Wire Wire Line
+	2300 4300 2300 4775
+Wire Wire Line
+	4250 4300 4250 4775
+Text Notes 2025 7150 0    197  ~ 0
+23 chan
+Connection ~ 3575 4775
+Connection ~ 3575 5550
+Connection ~ 2300 4775
+Wire Wire Line
+	2300 4775 2300 5040
+Connection ~ 2925 4775
+Connection ~ 2925 5200
+Connection ~ 4250 4775
+Wire Wire Line
+	4250 4775 4250 5690
+Connection ~ 4900 4775
+Connection ~ 2300 5200
+Connection ~ 2300 3475
+Wire Wire Line
+	2300 3475 2300 3555
+Wire Wire Line
+	2300 5200 2300 5280
+Connection ~ 4250 5850
+Wire Wire Line
+	4250 5850 4250 6325
+Connection ~ 4900 6075
+Wire Wire Line
+	4900 6075 4900 6170
+Wire Wire Line
+	4900 4775 4900 5905
+Wire Wire Line
+	5575 4300 5575 4775
+$Comp
+L K380-rescue:SW_Push-Switch SW36
+U 1 1 5BBDB79A
+P 5775 4775
+F 0 "SW36" H 5775 5060 50  0000 C CNN
+F 1 "'" H 5775 4969 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 4975 50  0001 C CNN
+F 3 "" H 5775 4975 50  0001 C CNN
+	1    5775 4775
+	1    0    0    -1  
+$EndComp
+Connection ~ 5575 4775
+Text Label 6575 5850 0    50   ~ 0
+1
+Wire Wire Line
+	4650 5850 6575 5850
+Wire Wire Line
+	5575 875  5575 525 
+Connection ~ 5575 875 
+Text Label 5575 525  0    50   ~ 0
+2
+Wire Wire Line
+	4900 875  4900 525 
+Text Label 4900 525  0    50   ~ 0
+3
+Connection ~ 4900 875 
+Wire Wire Line
+	4250 875  4250 525 
+Text Label 4250 525  0    50   ~ 0
+4
+Connection ~ 4250 875 
+Wire Wire Line
+	3575 875  3575 525 
+Text Label 3575 525  0    50   ~ 0
+5
+Connection ~ 3575 875 
+Wire Wire Line
+	2925 875  2925 525 
+Text Label 2925 525  0    50   ~ 0
+6
+Wire Wire Line
+	2300 875  2300 525 
+Text Label 2300 525  0    50   ~ 0
+7
+Wire Wire Line
+	1625 875  1625 525 
+Text Label 1625 525  0    50   ~ 0
+8
+Wire Wire Line
+	950  875  950  525 
+Text Label 950  525  0    50   ~ 0
+9
+Connection ~ 950  875 
+Connection ~ 1625 875 
+Connection ~ 2300 875 
+Wire Wire Line
+	1350 3475 1350 3650
+Wire Wire Line
+	5975 3475 5975 3650
+Connection ~ 5975 3650
+Wire Wire Line
+	5975 3650 6250 3650
+Wire Wire Line
+	5300 3475 5300 3650
+Connection ~ 5300 3650
+Wire Wire Line
+	5300 3650 5975 3650
+Wire Wire Line
+	4650 3475 4650 3650
+Connection ~ 4650 3650
+Wire Wire Line
+	4650 3650 5300 3650
+Wire Wire Line
+	3975 3475 3975 3650
+Wire Wire Line
+	1350 3650 2025 3650
+Connection ~ 3975 3650
+Wire Wire Line
+	3975 3650 4650 3650
+Wire Wire Line
+	3325 3475 3325 3650
+Connection ~ 3325 3650
+Wire Wire Line
+	3325 3650 3975 3650
+Connection ~ 2700 3650
+Wire Wire Line
+	2700 3650 3325 3650
+Wire Wire Line
+	2025 3475 2025 3650
+Connection ~ 2025 3650
+Wire Wire Line
+	2025 3650 2700 3650
+Text Label 6250 3650 0    50   ~ 0
+10
+Wire Wire Line
+	1350 3100 1350 3225
+Wire Wire Line
+	1350 3225 2025 3225
+Wire Wire Line
+	5975 3100 5975 3225
+Connection ~ 5975 3225
+Wire Wire Line
+	5975 3225 6250 3225
+Wire Wire Line
+	5300 3100 5300 3225
+Connection ~ 5300 3225
+Wire Wire Line
+	5300 3225 5975 3225
+Wire Wire Line
+	4650 3100 4650 3225
+Connection ~ 4650 3225
+Wire Wire Line
+	4650 3225 5300 3225
+Wire Wire Line
+	3975 3100 3975 3225
+Connection ~ 3975 3225
+Wire Wire Line
+	3975 3225 4650 3225
+Wire Wire Line
+	3325 3100 3325 3225
+Connection ~ 3325 3225
+Wire Wire Line
+	3325 3225 3975 3225
+Wire Wire Line
+	2700 3100 2700 3225
+Connection ~ 2700 3225
+Wire Wire Line
+	2700 3225 3325 3225
+Wire Wire Line
+	2025 3100 2025 3225
+Connection ~ 2025 3225
+Wire Wire Line
+	2025 3225 2700 3225
+Text Label 6300 4875 0    50   ~ 0
+11
+Wire Wire Line
+	5975 1850 5975 1925
+Wire Wire Line
+	5975 1925 5300 1925
+Wire Wire Line
+	1350 1925 1350 1850
+Wire Wire Line
+	2025 1850 2025 1925
+Connection ~ 2025 1925
+Wire Wire Line
+	2025 1925 1350 1925
+Wire Wire Line
+	2700 1850 2700 1925
+Connection ~ 2700 1925
+Wire Wire Line
+	2700 1925 2025 1925
+Wire Wire Line
+	3325 1850 3325 1925
+Connection ~ 3325 1925
+Wire Wire Line
+	3325 1925 2700 1925
+Wire Wire Line
+	3975 1850 3975 1925
+Connection ~ 3975 1925
+Wire Wire Line
+	3975 1925 3325 1925
+Wire Wire Line
+	4650 1850 4650 1925
+Connection ~ 4650 1925
+Wire Wire Line
+	4650 1925 3975 1925
+Wire Wire Line
+	5300 1850 5300 1925
+Connection ~ 5300 1925
+Wire Wire Line
+	5300 1925 4650 1925
+Wire Wire Line
+	5975 1925 6350 1925
+Connection ~ 5975 1925
+Wire Wire Line
+	1350 875  1350 950 
+Wire Wire Line
+	1350 950  2025 950 
+Wire Wire Line
+	5975 875  5975 950 
+Connection ~ 5975 950 
+Wire Wire Line
+	5975 950  6300 950 
+Wire Wire Line
+	5300 875  5300 950 
+Connection ~ 5300 950 
+Wire Wire Line
+	5300 950  5975 950 
+Wire Wire Line
+	4650 875  4650 950 
+Connection ~ 4650 950 
+Wire Wire Line
+	4650 950  5300 950 
+Wire Wire Line
+	3975 875  3975 950 
+Connection ~ 3975 950 
+Wire Wire Line
+	3975 950  4650 950 
+Wire Wire Line
+	3325 875  3325 950 
+Connection ~ 3325 950 
+Wire Wire Line
+	3325 950  3975 950 
+Wire Wire Line
+	2700 875  2700 950 
+Connection ~ 2700 950 
+Wire Wire Line
+	2700 950  3325 950 
+Connection ~ 2925 875 
+Wire Wire Line
+	2025 875  2025 950 
+Connection ~ 2025 950 
+Wire Wire Line
+	2025 950  2700 950 
+Wire Wire Line
+	1350 1400 1350 1475
+Wire Wire Line
+	1350 1475 2025 1475
+Wire Wire Line
+	5975 1400 5975 1475
+Connection ~ 5975 1475
+Wire Wire Line
+	5975 1475 6325 1475
+Wire Wire Line
+	5300 1400 5300 1475
+Connection ~ 5300 1475
+Wire Wire Line
+	5300 1475 5975 1475
+Wire Wire Line
+	4650 1400 4650 1475
+Connection ~ 4650 1475
+Wire Wire Line
+	4650 1475 5300 1475
+Wire Wire Line
+	3975 1400 3975 1475
+Connection ~ 3975 1475
+Wire Wire Line
+	3975 1475 4650 1475
+Wire Wire Line
+	3325 1400 3325 1475
+Connection ~ 3325 1475
+Wire Wire Line
+	3325 1475 3975 1475
+Wire Wire Line
+	2700 1400 2700 1475
+Connection ~ 2700 1475
+Wire Wire Line
+	2700 1475 3325 1475
+Wire Wire Line
+	2025 1400 2025 1475
+Connection ~ 2025 1475
+Wire Wire Line
+	2025 1475 2700 1475
+Wire Wire Line
+	1350 2675 1350 2775
+Wire Wire Line
+	1350 2775 2025 2775
+Wire Wire Line
+	5975 2675 5975 2775
+Connection ~ 5975 2775
+Wire Wire Line
+	5975 2775 6350 2775
+Wire Wire Line
+	5300 2675 5300 2775
+Connection ~ 5300 2775
+Wire Wire Line
+	5300 2775 5975 2775
+Wire Wire Line
+	4650 2675 4650 2775
+Connection ~ 4650 2775
+Wire Wire Line
+	4650 2775 5300 2775
+Wire Wire Line
+	3975 2675 3975 2775
+Connection ~ 3975 2775
+Wire Wire Line
+	3975 2775 4650 2775
+Wire Wire Line
+	2700 2675 2700 2775
+Connection ~ 2700 2775
+Wire Wire Line
+	2700 2775 3975 2775
+Wire Wire Line
+	2025 2675 2025 2775
+Connection ~ 2025 2775
+Wire Wire Line
+	2025 2775 2700 2775
+Wire Wire Line
+	1350 3875 1350 3975
+Wire Wire Line
+	5975 3875 5975 3975
+Connection ~ 5975 3975
+Wire Wire Line
+	5975 3975 6275 3975
+Wire Wire Line
+	5300 3875 5300 3975
+Connection ~ 5300 3975
+Wire Wire Line
+	5300 3975 5975 3975
+Wire Wire Line
+	4650 3875 4650 3975
+Connection ~ 4650 3975
+Wire Wire Line
+	4650 3975 5300 3975
+Wire Wire Line
+	3975 3875 3975 3975
+Wire Wire Line
+	1350 3975 2025 3975
+Connection ~ 3975 3975
+Wire Wire Line
+	3975 3975 4650 3975
+Wire Wire Line
+	3325 3875 3325 3975
+Connection ~ 3325 3975
+Wire Wire Line
+	3325 3975 3975 3975
+Wire Wire Line
+	2700 3875 2700 3975
+Connection ~ 2700 3975
+Wire Wire Line
+	2700 3975 3325 3975
+Wire Wire Line
+	2025 3875 2025 3975
+Connection ~ 2025 3975
+Wire Wire Line
+	2025 3975 2700 3975
+Wire Wire Line
+	1350 4300 1350 4425
+Wire Wire Line
+	1350 4425 2025 4425
+Wire Wire Line
+	5975 4300 5975 4425
+Connection ~ 5975 4425
+Wire Wire Line
+	5975 4425 6300 4425
+Wire Wire Line
+	5300 4300 5300 4425
+Connection ~ 5300 4425
+Wire Wire Line
+	5300 4425 5975 4425
+Wire Wire Line
+	4650 4300 4650 4425
+Connection ~ 4650 4425
+Wire Wire Line
+	4650 4425 5300 4425
+Wire Wire Line
+	3975 4300 3975 4425
+Connection ~ 3975 4425
+Wire Wire Line
+	3975 4425 4650 4425
+Wire Wire Line
+	3325 4300 3325 4425
+Connection ~ 3325 4425
+Wire Wire Line
+	3325 4425 3975 4425
+Wire Wire Line
+	2700 4300 2700 4425
+Connection ~ 2700 4425
+Wire Wire Line
+	2700 4425 3325 4425
+Wire Wire Line
+	2025 4300 2025 4425
+Connection ~ 2025 4425
+Wire Wire Line
+	2025 4425 2700 4425
+Wire Wire Line
+	1350 4775 1350 4875
+Wire Wire Line
+	1350 4875 2025 4875
+Wire Wire Line
+	2025 4775 2025 4875
+Connection ~ 2025 4875
+Wire Wire Line
+	2025 4875 2700 4875
+Wire Wire Line
+	2700 4775 2700 4875
+Connection ~ 2700 4875
+Wire Wire Line
+	2700 4875 3325 4875
+Wire Wire Line
+	3325 4775 3325 4875
+Connection ~ 3325 4875
+Wire Wire Line
+	3325 4875 3975 4875
+Wire Wire Line
+	3975 4775 3975 4875
+Connection ~ 3975 4875
+Wire Wire Line
+	3975 4875 4650 4875
+Wire Wire Line
+	4650 4775 4650 4875
+Connection ~ 4650 4875
+Wire Wire Line
+	4650 4875 5300 4875
+Wire Wire Line
+	5300 4775 5300 4875
+Connection ~ 5300 4875
+Wire Wire Line
+	5300 4875 5975 4875
+Wire Wire Line
+	5975 4775 5975 4875
+Connection ~ 5975 4875
+Wire Wire Line
+	5975 4875 6300 4875
+Text Label 6300 950  0    50   ~ 0
+12
+Text Label 6300 4425 0    50   ~ 0
+13
+Text Label 6250 3225 0    50   ~ 0
+14
+Text Label 6350 1925 0    50   ~ 0
+15
+Text Label 6275 3975 0    50   ~ 0
+16
+Text Label 6325 1475 0    50   ~ 0
+17
+Text Label 6350 2775 0    50   ~ 0
+18
+Wire Wire Line
+	1350 2275 1350 2375
+Wire Wire Line
+	1350 2375 2025 2375
+Text Label 6375 2375 0    50   ~ 0
+19
+Wire Wire Line
+	2700 5200 2700 5280
+Wire Wire Line
+	2700 5325 3325 5325
+Wire Wire Line
+	3975 5550 6375 5550
+Wire Wire Line
+	5300 6075 6400 6075
+Wire Wire Line
+	5975 6350 6400 6350
+Connection ~ 3325 5325
+Wire Wire Line
+	3325 5325 6375 5325
+Text Label 6375 5325 0    50   ~ 0
+20
+Text Label 6400 6075 0    50   ~ 0
+21
+Text Label 6400 6350 0    50   ~ 0
+22
+Text Label 6375 5550 0    50   ~ 0
+23
+Text Label 7800 3375 0    50   ~ 0
+1
+Text Label 7900 3375 0    50   ~ 0
+2
+Text Label 8000 3375 0    50   ~ 0
+3
+Text Label 8100 3375 0    50   ~ 0
+4
+Text Label 8200 3375 0    50   ~ 0
+5
+Text Label 8300 3375 0    50   ~ 0
+6
+Text Label 8400 3375 0    50   ~ 0
+7
+Text Label 8500 3375 0    50   ~ 0
+8
+Text Label 8600 3375 0    50   ~ 0
+9
+Text Label 8700 3375 0    50   ~ 0
+10
+Text Label 8800 3375 0    50   ~ 0
+11
+Text Label 8900 3375 0    50   ~ 0
+12
+Text Label 9000 3375 0    50   ~ 0
+13
+Text Label 9100 3375 0    50   ~ 0
+14
+Text Label 9200 3375 0    50   ~ 0
+15
+Text Label 9300 3375 0    50   ~ 0
+16
+Text Label 9400 3375 0    50   ~ 0
+17
+Text Label 9500 3375 0    50   ~ 0
+18
+Text Label 9600 3375 0    50   ~ 0
+19
+Text Label 9700 3375 0    50   ~ 0
+20
+Text Label 9800 3375 0    50   ~ 0
+21
+Text Label 9900 3375 0    50   ~ 0
+22
+Text Label 10000 3375 0    50   ~ 0
+23
+$Comp
+L K380-rescue:Conn_01x23_Female-Connector J1
+U 1 1 5BFB60E3
+P 8900 3575
+F 0 "J1" V 8972 3555 50  0000 C CNN
+F 1 "Conn_01x23_Female" V 9063 3555 50  0000 C CNN
+F 2 "Connector_FFC-FPC:Molex_200528-0230_1x23-1MP_P1.00mm_Horizontal" H 8900 3575 50  0001 C CNN
+F 3 "~" H 8900 3575 50  0001 C CNN
+	1    8900 3575
+	0    -1   1    0   
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H1
+U 1 1 5D34555D
+P 7000 700
+F 0 "H1" H 7100 746 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 7100 655 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 7000 700 50  0001 C CNN
+F 3 "~" H 7000 700 50  0001 C CNN
+	1    7000 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H2
+U 1 1 5D346F19
+P 7000 900
+F 0 "H2" H 7100 946 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 7100 855 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 7000 900 50  0001 C CNN
+F 3 "~" H 7000 900 50  0001 C CNN
+	1    7000 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H3
+U 1 1 5D3478E9
+P 7000 1100
+F 0 "H3" H 7100 1146 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 7100 1055 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 7000 1100 50  0001 C CNN
+F 3 "~" H 7000 1100 50  0001 C CNN
+	1    7000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H4
+U 1 1 5D3478EF
+P 7000 1300
+F 0 "H4" H 7100 1346 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 7100 1255 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 7000 1300 50  0001 C CNN
+F 3 "~" H 7000 1300 50  0001 C CNN
+	1    7000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H5
+U 1 1 5D369468
+P 7000 1500
+F 0 "H5" H 7100 1546 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 7100 1455 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 7000 1500 50  0001 C CNN
+F 3 "~" H 7000 1500 50  0001 C CNN
+	1    7000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H6
+U 1 1 5D36946E
+P 7000 1700
+F 0 "H6" H 7100 1746 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 7100 1655 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 7000 1700 50  0001 C CNN
+F 3 "~" H 7000 1700 50  0001 C CNN
+	1    7000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H10
+U 1 1 5D369474
+P 8450 1350
+F 0 "H10" H 8550 1396 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 8550 1305 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 8450 1350 50  0001 C CNN
+F 3 "~" H 8450 1350 50  0001 C CNN
+	1    8450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H11
+U 1 1 5D36947A
+P 8450 1550
+F 0 "H11" H 8550 1596 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 8550 1505 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 8450 1550 50  0001 C CNN
+F 3 "~" H 8450 1550 50  0001 C CNN
+	1    8450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H7
+U 1 1 5D37A16F
+P 8450 750
+F 0 "H7" H 8550 796 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 8550 705 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 8450 750 50  0001 C CNN
+F 3 "~" H 8450 750 50  0001 C CNN
+	1    8450 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H8
+U 1 1 5D37A175
+P 8450 950
+F 0 "H8" H 8550 996 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 8550 905 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 8450 950 50  0001 C CNN
+F 3 "~" H 8450 950 50  0001 C CNN
+	1    8450 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H9
+U 1 1 5D37A17B
+P 8450 1150
+F 0 "H9" H 8550 1196 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 8550 1105 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 8450 1150 50  0001 C CNN
+F 3 "~" H 8450 1150 50  0001 C CNN
+	1    8450 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_DIP_x01-Switch SW76
+U 1 1 5D32A43B
+P 10500 1700
+F 0 "SW76" H 10500 1967 50  0000 C CNN
+F 1 "K380_Controller" H 10500 1876 50  0000 C CNN
+F 2 "Footprint_hnah87:K380_Controller" H 10500 1700 50  0001 C CNN
+F 3 "" H 10500 1700 50  0001 C CNN
+	1    10500 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 1700 10800 1700
+$Comp
+L K380-rescue:Battery_Cell-Device BT1
+U 1 1 5D34EAED
+P 10050 950
+F 0 "BT1" V 10000 900 50  0000 C CNN
+F 1 "Battery_Cell" V 10000 1150 24  0000 C CNN
+F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 10050 1010 50  0001 C CNN
+F 3 "~" V 10050 1010 50  0001 C CNN
+	1    10050 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L K380-rescue:Battery_Cell-Device BT2
+U 1 1 5D37EC0B
+P 10050 750
+F 0 "BT2" V 10000 700 50  0000 C CNN
+F 1 "Battery_Cell" V 10000 950 24  0000 C CNN
+F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 10050 810 50  0001 C CNN
+F 3 "~" V 10050 810 50  0001 C CNN
+	1    10050 750 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 750  9950 950 
+$Comp
+L K380-rescue:AP1117-33-Regulator_Linear U1
+U 1 1 5D3A27E8
+P 10650 750
+F 0 "U1" H 10650 992 50  0000 C CNN
+F 1 "AP1117-33" H 10650 901 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 10650 950 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 10750 500 50  0001 C CNN
+	1    10650 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 750  10250 950 
+Wire Wire Line
+	10250 750  10350 750 
+Connection ~ 10250 750 
+Wire Wire Line
+	9950 950  9950 1050
+Wire Wire Line
+	9950 1050 10650 1050
+Connection ~ 9950 950 
+Wire Wire Line
+	10950 750  10950 1700
+Wire Wire Line
+	9950 1050 9950 1700
+Connection ~ 9950 1050
+Wire Wire Line
+	9950 1700 10200 1700
+$Comp
+L K380-rescue:SW_Push-Switch SW72
+U 1 1 5B9C37B8
+P 5775 4300
+F 0 "SW72" H 5775 4585 50  0000 C CNN
+F 1 "," H 5775 4494 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 4500 50  0001 C CNN
+F 3 "" H 5775 4500 50  0001 C CNN
+	1    5775 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:MountingHole-Mechanical H12
+U 1 1 5D3B5C94
+P 8450 1750
+F 0 "H12" H 8550 1796 50  0000 L CNN
+F 1 "Cherry Stabilizer PCB Mounted" H 8550 1705 50  0000 L CNN
+F 2 "Footprint_hnah87:Cherry_Stab_PCBMounted" H 8450 1750 50  0001 C CNN
+F 3 "~" H 8450 1750 50  0001 C CNN
+	1    8450 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 3100 3575 3305
+$Comp
+L K380-rescue:SW_Push-Switch SW89
+U 1 1 5D3BA02F
+P 3775 3305
+F 0 "SW89" H 3775 3590 50  0000 C CNN
+F 1 "CAPS" H 4080 3310 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 3505 50  0001 C CNN
+F 3 "" H 3775 3505 50  0001 C CNN
+	1    3775 3305
+	-1   0    0    1   
+$EndComp
+Connection ~ 3575 3305
+Wire Wire Line
+	3575 3305 3575 3475
+Wire Wire Line
+	3975 3305 3975 3475
+Connection ~ 3975 3475
+$Comp
+L K380-rescue:SW_Push-Switch SW90
+U 1 1 5D3CDFA2
+P 3775 5460
+F 0 "SW90" H 4130 5465 50  0000 C CNN
+F 1 "LCTRL" H 3435 5460 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 5660 50  0001 C CNN
+F 3 "" H 3775 5660 50  0001 C CNN
+	1    3775 5460
+	1    0    0    -1  
+$EndComp
+Connection ~ 3975 5550
+$Comp
+L K380-rescue:SW_Push-Switch SW93
+U 1 1 5D3E19F7
+P 5100 5905
+F 0 "SW93" H 5100 6190 50  0000 C CNN
+F 1 "START" H 4765 5905 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 6105 50  0001 C CNN
+F 3 "" H 5100 6105 50  0001 C CNN
+	1    5100 5905
+	-1   0    0    1   
+$EndComp
+Connection ~ 4900 5905
+Wire Wire Line
+	4900 5905 4900 6075
+$Comp
+L K380-rescue:SW_Push-Switch SW94
+U 1 1 5D3E28E4
+P 5100 6170
+F 0 "SW94" H 5100 6455 50  0000 C CNN
+F 1 "START" H 4765 6170 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5100 6370 50  0001 C CNN
+F 3 "" H 5100 6370 50  0001 C CNN
+	1    5100 6170
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 6170
+Wire Wire Line
+	4900 6170 4900 6350
+Wire Wire Line
+	5300 5905 5300 6075
+Connection ~ 5300 6075
+Wire Wire Line
+	5300 6075 5300 6170
+$Comp
+L K380-rescue:SW_Push-Switch SW85
+U 1 1 5D3F70FC
+P 2500 5120
+F 0 "SW85" H 2170 5120 50  0000 C CNN
+F 1 "LALT" H 2780 5120 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 5320 50  0001 C CNN
+F 3 "" H 2500 5320 50  0001 C CNN
+	1    2500 5120
+	-1   0    0    1   
+$EndComp
+Connection ~ 2300 5120
+Wire Wire Line
+	2300 5120 2300 5200
+$Comp
+L K380-rescue:SW_Push-Switch SW84
+U 1 1 5D3F77F2
+P 2500 5040
+F 0 "SW84" H 2170 5040 50  0000 C CNN
+F 1 "LALT" H 2780 5040 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 5240 50  0001 C CNN
+F 3 "" H 2500 5240 50  0001 C CNN
+	1    2500 5040
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 5040
+Wire Wire Line
+	2300 5040 2300 5120
+$Comp
+L K380-rescue:SW_Push-Switch SW86
+U 1 1 5D3F7F17
+P 2500 5280
+F 0 "SW86" H 2170 5280 50  0000 C CNN
+F 1 "LALT" H 2780 5280 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 5480 50  0001 C CNN
+F 3 "" H 2500 5480 50  0001 C CNN
+	1    2500 5280
+	-1   0    0    1   
+$EndComp
+Connection ~ 2300 5280
+Wire Wire Line
+	2300 5280 2300 5950
+Connection ~ 2700 5280
+Wire Wire Line
+	2700 5280 2700 5325
+Wire Wire Line
+	2700 5040 2700 5120
+Connection ~ 2700 5200
+Connection ~ 2700 5120
+Wire Wire Line
+	2700 5120 2700 5200
+$Comp
+L K380-rescue:SW_Push-Switch SW82
+U 1 1 5D40D4C9
+P 2500 3395
+F 0 "SW82" H 2800 3400 50  0000 C CNN
+F 1 "SPACE" H 2160 3400 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 3595 50  0001 C CNN
+F 3 "" H 2500 3595 50  0001 C CNN
+	1    2500 3395
+	-1   0    0    1   
+$EndComp
+Connection ~ 2300 3395
+Wire Wire Line
+	2300 3395 2300 3475
+$Comp
+L K380-rescue:SW_Push-Switch SW81
+U 1 1 5D40DDA8
+P 2500 3315
+F 0 "SW81" H 2800 3320 50  0000 C CNN
+F 1 "SPACE" H 2160 3320 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 3515 50  0001 C CNN
+F 3 "" H 2500 3515 50  0001 C CNN
+	1    2500 3315
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 3315
+Wire Wire Line
+	2300 3315 2300 3395
+$Comp
+L K380-rescue:SW_Push-Switch SW83
+U 1 1 5D40E8D0
+P 2500 3555
+F 0 "SW83" H 2800 3560 50  0000 C CNN
+F 1 "SPACE" H 2160 3560 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 2500 3755 50  0001 C CNN
+F 3 "" H 2500 3755 50  0001 C CNN
+	1    2500 3555
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3315 2700 3395
+Connection ~ 2700 3395
+Wire Wire Line
+	2700 3395 2700 3475
+Connection ~ 2700 3475
+Wire Wire Line
+	2700 3475 2700 3555
+Connection ~ 2300 3555
+Wire Wire Line
+	2300 3555 2300 3875
+Connection ~ 2700 3555
+Wire Wire Line
+	2700 3555 2700 3650
+Wire Wire Line
+	2925 4775 2925 5040
+$Comp
+L K380-rescue:SW_Push-Switch SW88
+U 1 1 5D42624A
+P 3125 5120
+F 0 "SW88" H 2985 5155 20  0000 C CNN
+F 1 "RALT" H 2825 5120 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 5320 50  0001 C CNN
+F 3 "" H 3125 5320 50  0001 C CNN
+	1    3125 5120
+	-1   0    0    1   
+$EndComp
+Connection ~ 2925 5120
+Wire Wire Line
+	2925 5120 2925 5200
+$Comp
+L K380-rescue:SW_Push-Switch SW87
+U 1 1 5D426896
+P 3125 5040
+F 0 "SW87" H 2985 5075 20  0000 C CNN
+F 1 "RALT" H 3415 5045 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3125 5240 50  0001 C CNN
+F 3 "" H 3125 5240 50  0001 C CNN
+	1    3125 5040
+	1    0    0    -1  
+$EndComp
+Connection ~ 2925 5040
+Wire Wire Line
+	3325 5200 3325 5325
+Wire Wire Line
+	2925 5200 2925 6450
+Wire Wire Line
+	3325 5040 3325 5120
+Wire Wire Line
+	2925 5040 2925 5120
+Connection ~ 3325 5200
+Connection ~ 3325 5120
+Wire Wire Line
+	3325 5120 3325 5200
+$Comp
+L K380-rescue:SW_Push-Switch SW96
+U 1 1 5D457E23
+P 5775 6270
+F 0 "SW96" H 5920 6300 20  0000 C CNN
+F 1 "FN" H 5655 6300 20  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 6470 50  0001 C CNN
+F 3 "" H 5775 6470 50  0001 C CNN
+	1    5775 6270
+	1    0    0    -1  
+$EndComp
+Connection ~ 5575 6270
+Wire Wire Line
+	5575 6270 5575 6350
+$Comp
+L K380-rescue:SW_Push-Switch SW95
+U 1 1 5D45848D
+P 5775 6190
+F 0 "SW95" H 5920 6220 20  0000 C CNN
+F 1 "FN" H 5655 6220 20  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 6390 50  0001 C CNN
+F 3 "" H 5775 6390 50  0001 C CNN
+	1    5775 6190
+	-1   0    0    1   
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW97
+U 1 1 5D458B96
+P 5775 6430
+F 0 "SW97" H 5920 6460 20  0000 C CNN
+F 1 "FN" H 5655 6460 20  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 5775 6630 50  0001 C CNN
+F 3 "" H 5775 6630 50  0001 C CNN
+	1    5775 6430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 6350 5575 6430
+Wire Wire Line
+	5575 4775 5575 6190
+Connection ~ 5575 6350
+Wire Wire Line
+	5975 6430 5975 6350
+Connection ~ 5975 6270
+Wire Wire Line
+	5975 6270 5975 6190
+Connection ~ 5975 6350
+Wire Wire Line
+	5975 6350 5975 6270
+Connection ~ 5575 6190
+Wire Wire Line
+	5575 6190 5575 6270
+$Comp
+L K380-rescue:SW_Push-Switch SW92
+U 1 1 5D4886E8
+P 4450 5770
+F 0 "SW92" H 4315 5800 20  0000 C CNN
+F 1 "RCTRL" H 4590 5800 20  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 5970 50  0001 C CNN
+F 3 "" H 4450 5970 50  0001 C CNN
+	1    4450 5770
+	1    0    0    -1  
+$EndComp
+$Comp
+L K380-rescue:SW_Push-Switch SW91
+U 1 1 5D489079
+P 4450 5690
+F 0 "SW91" H 4315 5720 20  0000 C CNN
+F 1 "RCTRL" H 4590 5720 20  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 4450 5890 50  0001 C CNN
+F 3 "" H 4450 5890 50  0001 C CNN
+	1    4450 5690
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 5690
+Wire Wire Line
+	4650 5690 4650 5770
+Wire Wire Line
+	4250 5690 4250 5770
+Connection ~ 4650 5850
+Connection ~ 4650 5770
+Wire Wire Line
+	4650 5770 4650 5850
+Wire Wire Line
+	3575 5550 3575 5650
+$Comp
+L K380-rescue:SW_Push-Switch SW98
+U 1 1 5DA09C1B
+P 3775 5650
+F 0 "SW98" H 3430 5650 50  0000 C CNN
+F 1 "LCTRL" H 4110 5655 50  0000 C CNN
+F 2 "Footprint_hnah87:CHERRY_PCB_100H_Thermal" H 3775 5850 50  0001 C CNN
+F 3 "" H 3775 5850 50  0001 C CNN
+	1    3775 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3575 5650
+Wire Wire Line
+	3975 5650 3975 5550
+Wire Wire Line
+	3575 5650 3575 6450
+Connection ~ 3575 5460
+Wire Wire Line
+	3575 5460 3575 5550
+Wire Wire Line
+	3975 5460 3975 5550
+Wire Wire Line
+	3575 4775 3575 5460
+Connection ~ 4250 5770
+Wire Wire Line
+	4250 5770 4250 5850
+$Comp
+L power:GND #PWR0101
+U 1 1 5DAA49FD
+P 9950 1700
+F 0 "#PWR0101" H 9950 1450 50  0001 C CNN
+F 1 "GND" H 9955 1527 50  0000 C CNN
+F 2 "" H 9950 1700 50  0001 C CNN
+F 3 "" H 9950 1700 50  0001 C CNN
+	1    9950 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 9950 1700
+Wire Wire Line
+	2025 2275 2025 2375
+Connection ~ 2025 2375
+Wire Wire Line
+	2025 2375 6375 2375
+$EndSCHEMATC
